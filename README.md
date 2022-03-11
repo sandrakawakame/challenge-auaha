@@ -14,7 +14,7 @@
 <h3>Instruções Gerais:</h3>
 <p>Classe <b>container:</b> é a classe que engloba todo o conteúdo da página.</p>
 <p>Classe <b>content:</b> Classe contet define o tamanho máximo do corpo da página, tendo este como base o tamanho de 1300px</p>
-<p>Classe <b>cabecalho-conteudo:</b> Inseri a imagem de background</p>
+<p>Classe <b>cabecalho-conteudo:</b> Atrinui a div uma imagem de background</p>
 <p>Classe <b>texto-quemsomos</b> Estiliza a cor, tamanho e alinhamento do texto "Quem Somos" que sobrepoe a imagem no cabeçalho</p>
 <p>Classe <b>nossaempresa-content</b> Aplicado a prorpiedade Flex wrap para que ocorra a quebra de linha dos elementos automaticamente de acordo com o tamanho da tela e também utilizado a propriedade <b>row</b> para que os elementos sejam apresentados em linha</p>
 <p>Classe <b>sessao-video</b> Aplicado a prorpiedade Flex: nowrap para a versão desktop para que não ocorra a quebra de linha dos elementos enquanto a tela for maior que 1200px</p>

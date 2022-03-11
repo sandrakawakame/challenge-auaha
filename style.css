@@ -1,0 +1,267 @@
+*{
+    margin:0px;
+    padding: 0px;
+    text-decoration: none;
+    border: none;
+    background: none;
+    list-style: none;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: (0,0,0,0);
+    font-size: inherit;
+    font-family: 'Poppins', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.container{
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content{
+    max-width: 1300px;
+    width: 100%;
+	margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cabecalho-conteudo{
+    background: url("../img/cabecalho.png");
+    width: 100%;
+    height: 360px;
+    background-repeat: no-repeat;
+}
+.texto-quemsomos{
+    font-size: 45px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 120px;
+}
+.topo-body h1{
+    font-size: 20px;
+    padding: 40px 0px 20px 0px;
+    padding: 20px 40px;
+}
+.topo-body p{
+    color: #949596;
+    font-size: 14px;
+max-width: 1300px;
+width: 100%;
+height: auto;
+}
+.nossaempresa{
+    background-color: rgb(250,250,250);
+    width: 100%;
+    
+}
+.centro{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.nossaempresa-content{
+    justify-content: center;
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+.nossaempresa-conteudo{ 
+    width: 420px;
+    height: 100%;
+    padding: 30px 20px;
+    font-size: 13px;
+}
+.nossaempresa-conteudo img{
+    width: 100%; 
+    padding: 20px 0px;
+}
+.video{
+    background-color: #2B3034;
+}
+.sessao-video{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+conteudo-video{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.conteudo-video h2{
+    color: #fff;
+    font-size: 20px;
+    padding: 40px 40px 0px 40px;
+    margin-top: 100px;
+}
+.p_conteudo{
+    max-width: 500px;
+    padding: 40px;
+    margin-left: auto;
+    color: #fff;
+    font-size: 14px;
+}
+#img-video{
+    width: 660px;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 35px;
+}
+
+.rodape{
+    background-color: #4D4D4D;
+}
+.rodape-conteudo{
+    padding: 40px;
+    color: #fff;
+    font-size: 14px;
+}
+.copyright-conteudo{
+    padding: 40px;
+}
+#banner_centro{
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#img_cabecalho{
+    width: 100%;
+}
+#img-auaha{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 120px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+
+@media (min-width: 298px) and (max-width: 767px){
+    
+    .container, .content, .topo-body{
+        max-width: 760px;
+        width: 100%;
+        height: auto;
+    }
+
+    .content{
+       max-width: 100%;
+       padding: 10px;
+       text-align: left;
+    }
+    h1{
+        font-size: 10px;
+        padding: 0px;
+    }
+    .topo-body p{
+        font-size: 5px;
+    }
+    .nossaempresa{
+        background-color: rgb(250,250,250);
+        width: 100%;
+        
+    }
+    .nossaempresa-conteudo{
+        max-width: 100%;
+    }
+    .sessao-video{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+  
+    #img_cabecalho img{
+        max-width: 100%;
+    }
+    #banner_centro{
+        max-width: 100%;
+    }
+    #img-video{
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+    }
+    #img-auaha{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 120px;
+    }
+    .rodape-conteudo{
+        padding: 30px;
+    }
+    .copyright-conteudo {
+        padding: 30px;
+    }
+
+}
+
+
+@media(min-width: 768px) and (max-width: 1199px) {
+    .container{
+        max-width: 900px;
+        width: 100%;
+        height: auto;
+    }
+
+    h1{
+        font-size: 10px;
+        padding: 0px;
+    }
+    .topo-body p{
+        font-size: 5px;
+
+    }
+
+    .video{
+        
+        height: auto;
+    }
+    .sessao-video{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    .conteudo-video h2{
+        width: 100%;
+        padding: 20px;
+    }
+    .p_conteudo{
+        max-width: 768px;
+        width: 100%;
+        padding: 20px;
+        margin-left: auto;
+        color: #fff;
+        font-size: 14px;
+    }
+    .rodape-conteudo h2{
+        max-width: 768px;
+        padding: 20px;
+    }
+    .rodape-conteudo{
+        padding: 30px;
+    }
+    .copyright-conteudo {
+        padding: 30px;
+    }
+    #img_cabecalho img{
+        max-width: 100%;
+    }
+    #img-video{
+        max-width: 100%;
+
+    }
+
+
+    
+}
+
+
+

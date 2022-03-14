@@ -26,7 +26,7 @@
     margin-right: auto;
 }
 .cabecalho-conteudo{
-    background: url("../img/cabecalho.png");
+    background: url("cabecalho.png");
     width: 100%;
     height: 360px;
     background-repeat: no-repeat;

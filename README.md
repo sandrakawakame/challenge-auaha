@@ -32,3 +32,12 @@
 
 <p>OBS: Não foi aplicado JS/Jquery pois não vi necessidade de utilizar estes recursos para este projeto</p>
 
+<hr>
+<p>25/03/2022</p>
+<h1>Teste Auaha Front End - Etapa 2</h1>
+<h2>Pagína E-commerce responsiva</h2>
+<h3>Descrição</h3>
+<p>Projeto Front End desenvolivida para teste de habilidade Front End aplicando JS/jQuery, CSS, HTML<p>
+<p>Em resumo, foi aplicado neste projeto as bibliotecas Swiffy Slider e Slick Slider para desenvolver o carrossel de imagens.</p>
+<p>Utilizado também propriedades FlexBox para organizar os elementos de forma prática e facilitar o processo de responsividade</p>
+<p>Data de entrega: 25/03/2022</p>

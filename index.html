@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <link rel="stylesheet" href="css/style_index.css">
+    <title>Document</title>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <section class="header">
+            <div class="content_header">
+                <div class="content_search">
+                    <form action=" " method="post" class="content_form_search">
+                        <input type="search" id="busca" name="" placeholder="O que deseja encontrar?">
+                        <button type="submit"><img src="img/lupa.png"></button>
+                    </form>
+                    <div class="search_hover">
+                        <ul>
+                            <h3>Sugestões</h3>
+                            <div>
+                                <ul class="sugestao_busca">
+                                    <li><a href="#">Brinco</a></li>
+                                    <li><a href="#">Brinco Prata</a></li>
+                                    <li><a href="#">Brinco Ouro</a></li>
+                                </ul>
+                            </div>
+                            <li class="sugestao_busca1"><img src="img/anel.png"><a href="#">Anel Banhado Ouro Reto
+                                    Com
+                                    Zirconia</a></li>
+                            <li class="sugestao_busca1"><img src="img/brinco.png"><a href="#">Anel Banhado Ouro Reto
+                                    Com
+                                    Zirconia</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+
+                <div class="content_header_right">
+                    <!-- MINHA CONTA -->
+                    <nav class="minha_conta">
+                        <div class="content_itens">
+                            <span><img class="img_minhaConta" src="img/icon_minhaConta.png"></span>Minha Conta
+                        </div>
+                        <div class="content_minhaConta_hover">
+                            <ul class="minhaConta_logar">
+                                <li><a href="#">Entrar</a></li>
+                                <li><a href="#">Cadastrar</a></li>
+                            </ul>
+                            <ul class="minhaConta_logado">
+                                <li><a href="#">Minha conta</a></li>
+                                <li><a href="#">Meus pedidos</a></li>
+                                <li><a href="#">Sair</a></li>
+                            </ul>
+                        </div>
+
+                    </nav>
+
+                    <!--ATENDIMENTO-->
+                    <div class="atendimento">
+                        <div class="content_itens">
+                            <span><img src="img/icon_atendimento.png"></span>(99) 99999 - 9999
+                            <div class="content_atendimento_hover">
+                                <img src="img/icon_atendimentoHover.png">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--MINICART-->
+                    <nav class="minicart">
+                        <div class="content_itens">
+                            <img src="img/minicart.png">
+                            <div class="content_minicart_hover">
+                                <ul>
+                                    <li class="minicart_list"><img src="img/anel.png"><a href="#">Anel Banhado Ouro Reto
+                                            Com
+                                            Zirconia<span class="fechar"><img src="img/x.png" alt=""></span></a></li>
+                                    <li class="minicart_list"><img src="img/brinco.png"><a href="#">Anel Banhado Ouro
+                                            Reto Com
+                                            Zirconia<span class="fechar"><img src="img/x.png" alt=""></span></a>
+                                    </li>
+                                    <li class="minicart_list"><img src="img/brinco.png"><a href="#">Anel Banhado Ouro
+                                            Reto Com
+                                            Zirconia<span class="fechar"><img src="img/x.png" alt=""></span></a>
+                                    </li>
+                                </ul>
+                                <div class="minicart_subtotal">
+                                    <p>Subtotal <span><strong>R$ 564,00</strong></span></p>
+                                    <button class="news_btn" type="submit">Finalizar Compra</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content_minicart_hover">
+                            <ul>
+                                <li class="minicart_list"><img src="img/anel.png"><a href="#">Anel Banhado Ouro Reto Com
+                                        Zirconia<span class="fechar"><img src="img/x.png" alt=""></span></a></li>
+                                <li class="minicart_list"><img src="img/brinco.png"><a href="#">Anel Banhado Ouro Reto
+                                        Com
+                                        Zirconia<span class="fechar"><img src="img/x.png" alt=""></span></a>
+                                </li>
+                                <li class="minicart_list"><img src="img/brinco.png"><a href="#">Anel Banhado Ouro Reto
+                                        Com
+                                        Zirconia<span class="fechar"><img src="img/x.png" alt=""></span></a>
+                                </li>
+                            </ul>
+                            <div class="minicart_subtotal">
+                                <p>Subtotal <span><strong>R$ 564,00</strong></span></p>
+                                <button class="news_btn" type="submit">Finalizar Compra</button>
+                            </div>
+                        </div>
+                    </nav>
+                    <!--FIM MINICART-->
+                </div>
+            </div>
+        </section>
+        <!--FIM SECTION CABEÇALHO-->
+    </div>
+    <!--SECTION MENU-->
+    <section>
+        <nav id="nav_menu">
+            <button id="btn_mobile" aria-expanded="false">Menu
+                <span id="hamburger"></span>
+            </button>
+            <ul id="menu">
+                <li><a class="menu_txt" href="#">Anéis</a></li>
+                <li><a class="menu_txt" href="#">Brincos</a></li>
+                <li><a class="menu_txt" href="#">Colares</a></li>
+                <li><a class="menu_txt" href="#">Pingentes</a></li>
+                <li><a class="menu_txt" href="#">Pulseiras</a></li>
+                <li><a class="menu_txt" href="#">kits</a></li>
+            </ul>
+            <div class="menu_hover">
+                <ul>
+                    <div class="menu_hover_conteudo">
+                        <ul>
+                            <h3 class="h3_menu">Folheado</h3>
+                            <li><a href="#">Anéis</a></li>
+                            <li><a href="#">Brincos</a></li>
+                            <li><a href="#">Colares</a></li>
+                            <li><a href="#">Pingentes</a></li>
+                            <li><a href="#">Pulseiras</a></li>
+                            <li><a href="#">kits</a></li>
+                        </ul>
+                        <ul>
+                            <h3 class="h3_menu">Prata</h3>
+                            <li><a href="#">Anéis</a></li>
+                            <li><a href="#">Brincos</a></li>
+                            <li><a href="#">Colares</a></li>
+                            <li><a href="#">Pingentes</a></li>
+                            <li><a href="#">Pulseiras</a></li>
+                            <li><a href="#">kits</a></li>
+                        </ul>
+                        <ul>
+                            <h3 class="h3_menu">Ouro</h3>
+                            <li><a href="#">Anéis</a></li>
+                            <li><a href="#">Brincos</a></li>
+                            <li><a href="#">Colares</a></li>
+                            <li><a href="#">Pingentes</a></li>
+                            <li><a href="#">Pulseiras</a></li>
+                            <li><a href="#">kits</a></li>
+                        </ul>
+                    </div>
+                    <li> <img class="img_menu" src="img/hover_menu.png"><a class="menu_txt" href="#"></a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <!--SECTION FULLBANNER-->
+    <section>
+        <div class="swiffy-slider">
+            <ul class="slider-container">
+                <li><img src="img/fullbanner.png" style="max-width: 100%;height: auto;"></li>
+                <li><img src="img/fullbanner.png" style="max-width: 100%;height: auto;"></li>
+                <li><img src="img/fullbanner.png" style="max-width: 100%;height: auto;"></li>
+                <li><img src="img/fullbanner.png" style="max-width: 100%;height: auto;"></li>
+                <li><img src="img/fullbanner.png" style="max-width: 100%;height: auto;"></li>
+            </ul>
+
+
+            <button type="button" class="slider-nav"></button>
+            <button type="button" class="slider-nav slider-nav-next"></button>
+
+            <div class="slider-indicators">
+                <button class="active"></button>
+                <button></button>
+                <button></button>
+                <button></button>
+                <button></button>
+            </div>
+        </div>
+    </section>
+
+    <!--SECTION REGUA DE VANTAGEM-->
+    <section>
+        <div class="regua_vantagem">
+            <div>
+                <span><img src="img/icone_freteGratis.png" alt=""> </span>
+                <b>Frete Grátis</b> nas compras acima de R$ 299,00
+            </div>
+
+            <div class="regua_responsivo">
+                <span>
+                    <img src="img/icone_cartao.png" alt="">
+                </span>
+                <b>6 vezes sem juros </b> no cartão de crédito
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="contentBody">
+
+            <!--SECTION GRID-->
+            <section class="grid">
+                <div class="div_grid"> <img class="img_grid" src="img/Banner-1.png" alt=""></div>
+                <div class="div_grid"> <img class="img_grid" src="img/Banner-2.png" alt=""></div>
+                <div class="div_grid"> <img class="img_grid" src="img/Banner-4.png" alt=""></div>
+                <div class="div_grid"> <img class="img_grid" src="img/Banner-5.png" alt=""> </div>
+                <div class="div_grid banner5"> <img class="img_grid" src="img/Banner-3.png" alt=""></div>
+            </section>
+
+
+            <!--VITRINE-->
+            <section class="vitrine">
+                <h2>PROMOÇÕES</h2>
+
+                <div class="slide_vitrine">
+                    <div class="slide_item_hover">
+                        <img src="img/anel_2.jpeg" alt="" class="image">
+                        <p class="nome_produto">Anel Banhado Ouro Reto Com Zirconia</p>
+                        <p class="precoDe">De R$ 188,00</p>
+                        <p class="precoPor">Por R$ 188,00</p>
+                        <p class="parcelas">6x R$ 31,33 sem juros</p>
+                        <div class="middle">
+                            <img src="img/" alt="">
+                            <div type="button" class="quickView">Espiar</div>
+                            <div class="btn_comprar">Adicionar à sacola</div>
+                        </div>
+                    </div>
+                    <div class="slide_item_hover">
+                        <img src="img/anel_2.jpeg" alt="" class="image">
+                        <p class="nome_produto">Anel Banhado Ouro Reto Com Zirconia</p>
+                        <p class="precoDe">De R$ 188,00</p>
+                        <p class="precoPor">Por R$ 188,00</p>
+                        <p class="parcelas">6x R$ 31,33 sem juros</p>
+                        <div class="middle">
+                            <img src="img/" alt="">
+                            <div type="button" class="quickView">Espiar</div>
+                            <div class="btn_comprar">Adicionar à sacola</div>
+                        </div>
+                    </div>
+                    <div class="slide_item_hover">
+                        <img src="img/anel_2.jpeg" alt="" class="image">
+                        <p class="nome_produto">Anel Banhado Ouro Reto Com Zirconia</p>
+                        <p class="precoDe">De R$ 188,00</p>
+                        <p class="precoPor">Por R$ 188,00</p>
+                        <p class="parcelas">6x R$ 31,33 sem juros</p>
+                        <div class="middle">
+                            <img src="img/" alt="">
+                            <div type="button" class="quickView">Espiar</div>
+                            <div class="btn_comprar">Adicionar à sacola</div>
+                        </div>
+                    </div>
+                    <div class="slide_item_hover">
+                        <img src="img/anel_2.jpeg" alt="" class="image">
+                        <p class="nome_produto">Anel Banhado Ouro Reto Com Zirconia</p>
+                        <p class="precoDe">De R$ 188,00</p>
+                        <p class="precoPor">Por R$ 188,00</p>
+                        <p class="parcelas">6x R$ 31,33 sem juros</p>
+                        <div class="middle">
+                            <img src="img/" alt="">
+                            <div type="button" class="quickView">Espiar</div>
+                            <div class="btn_comprar">Adicionar à sacola</div>
+                        </div>
+                    </div>
+                    <div class="slide_item_hover">
+                        <img src="img/anel_2.jpeg" alt="" class="image">
+                        <p class="nome_produto">Anel Banhado Ouro Reto Com Zirconia</p>
+                        <p class="precoDe">De R$ 188,00</p>
+                        <p class="precoPor">Por R$ 188,00</p>
+                        <p class="parcelas">6x R$ 31,33 sem juros</p>
+                        <div class="middle">
+                            <img src="img/" alt="">
+                            <div type="button" class="quickView">Espiar</div>
+                            <div class="btn_comprar">Adicionar à sacola</div>
+                        </div>
+                    </div>
+                    <div class="slide_item_hover">
+                        <img src="img/anel_2.jpeg" alt="" class="image">
+                        <p class="nome_produto">Anel Banhado Ouro Reto Com Zirconia</p>
+                        <p class="precoDe">De R$ 188,00</p>
+                        <p class="precoPor">Por R$ 188,00</p>
+                        <p class="parcelas">6x R$ 31,33 sem juros</p>
+                        <div class="middle">
+                            <img src="img/" alt="">
+                            <div type="button" class="quickView">Espiar</div>
+                            <div class="btn_comprar">Adicionar à sacola</div>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="arrow_prev" class="arrow"></div>
+                <div id="arrow_next" class="arrow"></div>
+
+
+
+            </section>
+
+
+
+            <!--MINIBANNER-->
+            <section>
+                <div class="minibanner_rodape">
+                    <div class="div_banner">
+                        <img class="miniBanner_hover" src="img/minibanner1.png" alt="">
+                        <div class="txt_miniBanner">
+                            Novidades
+                        </div>
+                    </div>
+                    <div class="div_banner">
+                        <img class="miniBanner_hover" src="img/minibanner2.png" alt="">
+                        <div class="txt_miniBanner">
+                            Destaques
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--AVALIAÇAO DO CLIENTE-->
+            <section>
+                <div class="avaliacaoCliente">
+                    <h2>O que os clientes dizem</h2>
+                    <div class="container_avaliacao">
+                        <div class="avaliacao">
+                            <h3>Nome do Cliente</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nisi
+                                eros, interdum in purus vitae, semper porttitor ligula. Sed
+                                egestas odio ut pretium aliquet.
+                            </p>
+                            <p class="data">12/10/2020</p>
+                        </div>
+                        <div class="avaliacao">
+                            <h3>Nome do Cliente</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nisi
+                                eros, interdum in purus vitae, semper porttitor ligula. Sed
+                                egestas odio ut pretium aliquet.
+                            </p>
+                            <p class="data">12/10/2020</p>
+                        </div>
+                        <div class="avaliacao">
+                            <h3>Nome do Cliente</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nisi
+                                eros, interdum in purus vitae, semper porttitor ligula. Sed
+                                egestas odio ut pretium aliquet.
+                            </p>
+                            <p class="data">12/10/2020</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--NEWSLETTER-->
+            <section>
+                <div class="newsletter">
+                    <h2>Receba ofertas e novidades</h2>
+                    <h4>Cadastre-se e receba nossas novidades e promoções</h4>
+
+                    <div class="form-newsletter">
+                        <form action=" " method="post" class="content_form_search">
+                            <div class="align_form">
+                                <input class="input_news" type="search" name="nome" placeholder="Seu nome">
+                                <input class="input_news" type="search" name="email" placeholder="Seu Email">
+                                <button class="news_btn" type="submit">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+    <!--FIM SECTION BODY-->
+
+    <!--FOOTER-->
+    <footer>
+        <div class="rodape">
+            <nav>
+                <div class="conteudo_rodape">
+                    <ul class="menu_rodape">
+                        <h3>Contato</h3>
+                        <li><a class="menu_txt content_itens" href="#">
+                                <span><img src="img/icone_relogio.png" alt=""></span>Das 9:00 as 17:00</a></li>
+                        <li><a class="menu_txt content_itens" href="#">
+                                <span><img src="img/icone_whatsapp.png" alt=""></span>(11) 98751-2918</a></li>
+                        <li><a class="menu_txt content_itens" href="#"> <span><img src="img/icone_email.png"
+                                        alt=""></span>vendas@surijoias.com.br</a></li>
+                    </ul>
+                    <ul class="menu_rodape">
+                        <h3>Institucional</h3>
+                        <li><a class="menu_txt" href="#"> Sobre nós</a></li>
+                        <li><a class="menu_txt" href="#"> Trocas e devoluçoes</a></li>
+                        <li><a class="menu_txt" href="#"> Entregas e prazos</a></li>
+                        <li><a class="menu_txt" href="#"> Blog</a></li>
+                    </ul>
+                    <ul class="menu_rodape">
+                        <h3>Ajuda</h3>
+                        <li><a class="menu_txt" href="#"> Contato</a></li>
+                        <li><a class="menu_txt" href="#"> Tire suas dúvidas</a></li>
+                        <li><a class="menu_txt" href="#"> Garntia e cuidados</a></li>
+                    </ul>
+                    <ul class="menu_rodape">
+                        <h3>Pagamento</h3>
+                        <li><a class="menu_txt" href="#">
+                                <img src="img/pagamento.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="menu_rodape">
+                        <h3>Siga-nos</h3>
+                        <div class="redes_sociais menu_rodape">
+                            <li>
+                                <div class="divPaiIcons">
+                                    <img class="img" src="img/icon_facebook.png">
+                                    <div class="img_hover">
+                                        <img src="img/icon_facebookHover.png">
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="divPaiIcons">
+                                    <img class="img" src="img/icon_instagram.png">
+                                    <div class="img_hover">
+                                        <img src="img/icon_instagramHover.png">
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="divPaiIcons">
+                                    <img class="img" src="img/icon_whatsapp.png">
+                                    <div class="img_hover">
+                                        <img src="img/icon_whatsappHover.png">
+                                    </div>
+                                </div>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div class="copyright">
+            <p>
+                © SURI JOIAS. Proibida reprodução total ou parcial. Preços e estoques sujeitos à alteração sem aviso
+                prévio - CNPJ: 00.680.164.0001/07 - R. Exemplo, 00, Bairro Exemplo, Exemplo – EX
+            </p>
+            <img src="img/Logo-auahau.png" alt="logo auaha">
+        </div>
+    </footer>
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.1/dist/js/swiffy-slider.min.js" crossorigin="anonymous"
+        defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.1/dist/css/swiffy-slider.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+</body>
+
+</html>
